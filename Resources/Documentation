@@ -1,0 +1,17 @@
+//https://www.techbeamers.com/selenium-webdriver-add-a-book-to-the-cart/
+
+//1- It would launch the Chrome browser and maximize the window.
+
+//2- Navigate to the Flipkart website and perform Login operation.
+
+//3- Now, it’ll search for the book keyword which we choose as <Selenium>. Change it if you want to.
+
+//4- In this step, the code will click to view the search results.
+
+//5- We’ll now fetch the list of books displayed and select the last one using the XPath locator given below. You change the XPath to choose a different book.
+
+//6- Click on the book link to open the next page.
+
+//7- It’s time to click the <Add to Cart> button, but there are five of them displayed on the page. So, we used the below XPath to locate the first link to perform the add cart action.
+
+//8- In the next few steps, we’ll view the cart, verify if the book entry and press continue to fill the email.
